@@ -2,7 +2,7 @@
 
 This is a follow along project by Derek Morgan hosted on FreeCodeCamp utilizing Terraform and AWS to build a dev environment
 
-[!Alt text]("./project/images/architecture.png")
+[!Alt text]("project/images/architecture.png")
 
 ## Table of Contents
 
@@ -39,8 +39,8 @@ Build out a dev environment with Docker installed by setting up a remote Ubuntu 
 - Set up a provisioner: generated an SSH configuration file based on the host OS and included the public IP of the EC2 instance.
 
 [x] - Verify build by either running `ssh -i /Path/to/SSH/key ubuntu@<publicIP>` or using the command palette, searching for Remote-SSH: Connect to Host, searching for the public IP address created for the new EC2 Instance and press Enter. This should load a new VSCode editor with Docker already installed!  
-[!Alt text]("./project/images/docker_installed.png")
-[!Alt text]("./project/images/VSCodeinstalled.png")
+[!Alt text]("project/images/docker_installed.png")
+[!Alt text]("project/images/VSCodeinstalled.png")
 
 ## Documentation
 
