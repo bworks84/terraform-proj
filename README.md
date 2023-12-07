@@ -2,7 +2,7 @@
 
 This is a follow along project by Derek Morgan hosted on FreeCodeCamp utilizing Terraform and AWS to build a dev environment
 
-[!Alt text]("project/images/architecture.png")
+[!Alt text]("../images/architecture.png")
 
 ## Table of Contents
 
