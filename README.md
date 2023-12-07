@@ -38,7 +38,8 @@ Build out a dev environment with Docker installed by setting up a remote Ubuntu 
 - EC2 Instance: create an EC2 instance that will allow us to set up a remote dev environment. Also, while the EC2 is created, I added a userdata.tpl script to install Docker, to practice having the container available to use in a remote dev environment
 - Set up a provisioner: generated an SSH configuration file based on the host OS and included the public IP of the EC2 instance.
 
-[x] - Verify build by either running `ssh -i /Path/to/SSH/key ubuntu@<publicIP>` or using the command palette, searching for Remote-SSH: Connect to Host, searching for the public IP address created for the new EC2 Instance and press Enter. This should load a new VSCode editor with Docker already installed!  
+[x] - Verify build by either running `ssh -i /Path/to/SSH/key ubuntu@<publicIP>` or using the command palette, searching for Remote-SSH: Connect to Host, searching for the public IP address created for the new EC2 Instance and press Enter. This should load a new VSCode editor with Docker already installed!
+
 ![Docker-installed](./images/docker_installed.png)
 
 ![Dev-environment-installed](./images/VSCodeinstalled.png)
